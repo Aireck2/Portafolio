@@ -1,0 +1,39 @@
+.c-banner {
+    color: #fff;
+    padding-top: 125px;
+    background-image: url(https://revex-demo.000webhostapp.com/img/source/header-bg.png);
+    background-position: bottom, right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.c-banner__content {
+    padding-bottom: 150px;
+}
+
+.c-banner__content h2 {
+    font-size: 40px;
+}
+
+.c-banner__content p {
+    font-size: 17px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.c-banner__content a {
+    font-size: 20px;
+}
+
+.c-banner__image img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 991px) {
+    .c-banner__content {
+        text-align: center;
+    }
+}
